@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A portfolio project to segment e-commerce customers using RFM analysis and visualize insights.
+A data analyst portfolio project to segment e-commerce customers using RFM analysis and visualize insights.
 
 ## Folder Structure
 
