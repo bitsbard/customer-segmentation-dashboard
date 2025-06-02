@@ -33,4 +33,4 @@ A data analyst portfolio project to segment e-commerce customers using RFM analy
 - **Output:** `rfm_segmented` table in SQLite, `rfm_segmented.csv` in `data/`.
 
 ### Phase 5: Data Visualization with Tableau
-
+- **Tableau Public Link:** [https://public.tableau.com/views/CustomerSegmentationDashboard](https://public.tableau.com/views/CustomerSegmentationDashboard_17488261585640/CustomerSegmentationDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
