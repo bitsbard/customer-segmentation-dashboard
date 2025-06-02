@@ -34,3 +34,4 @@ A data analyst portfolio project to segment e-commerce customers using RFM analy
 
 ### Phase 5: Data Visualization with Tableau
 - **Tableau Public Link:** [https://public.tableau.com/views/CustomerSegmentationDashboard](https://public.tableau.com/views/CustomerSegmentationDashboard_17488261585640/CustomerSegmentationDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+![](0.png)
