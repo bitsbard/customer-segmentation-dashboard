@@ -66,7 +66,7 @@ A scatter plot reveals "Champions" exhibit the highest frequency (up to 260 tran
 
 #### Monetary Distribution Analysis
 - Similar to frequency, the monetary distribution is heavily skewed. The boxplots for all segments are low, indicating that the majority of purchases are of low monetary value.
-- High-value transactions are driven by **outliers**. The **Champions** segment clearly has the highest-value outliers, reaching up to $200K, confirming their status as top spenders.
+- High-value transactions are driven by **outliers**. The **Champions** segment clearly has the highest-value outliers, reaching up to $279K, confirming their status as top spenders.
 - The **Others** segment also contains some high-spending outliers, which is notable given their high recency. These are likely customers who made large purchases in the past but have since become inactive.
 - **Insight**: Revenue is highly concentrated among a small number of high-spending customers. Identifying and understanding the behavior of these monetary outliers within the `Champions` and `Others` segments is crucial for driving revenue growth.
 
