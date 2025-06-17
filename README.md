@@ -77,7 +77,7 @@ A scatter plot reveals "Champions" exhibit the highest frequency (up to 260 tran
   - **Action**: Target them with upselling and cross-selling campaigns. Introduce them to higher-value products or encourage bundle purchases to increase their monetary value and frequency.
 - **Engage Potential Loyalists**: These are recent customers with growth potential.
   - **Action**: Cultivate their loyalty with targeted follow-up campaigns and incentives for a second or third purchase. The goal is to increase their frequency and move them into the `Loyal Customers` or `Champions` segment.
-- **Reactivate "At Risk" Customers**: This group has high recency and requires immediate attention. Confirmed by [t-test-1](https://github.com/bitsbard/customer-retention-t-test)
+- **Reactivate "At Risk" Customers**: This group has high recency and requires immediate attention. Confirmed by [t-test](https://github.com/bitsbard/customer-retention-t-test).
   - **Action**: Launch aggressive "win-back" campaigns. Offer significant, personalized discounts or promotions based on their past purchase history to incentivize a new purchase.
 - **Segment and Investigate "Others"**: This is a mixed-signal group.
   - **Action**: Further segment this group. The majority are likely lost causes with high recency and low F/M values; consider excluding them from active marketing to reduce costs. However, the high-value F/M outliers within this segment are a top priority. Target them with specialized, high-touch re-engagement campaigns to understand why they stopped purchasing and win them back.
