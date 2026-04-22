@@ -61,7 +61,7 @@ The marketing team lacks a data-driven way to distinguish between high-value loy
 | Database | SQLite |
 | Processing | Python (Pandas, SQLAlchemy) |
 | Visualization | Tableau Desktop / Public |
-| Environment | Jupyter Notebooks |
+| Statistical Testing | SciPy (Independent T-Tests) |
 | Version Control | GitHub |
 
 ---
@@ -108,7 +108,7 @@ rfm['M_rank'] = pd.qcut(rfm['Monetary'], 5, labels=[1, 2, 3, 4, 5])
 | **Customer Distribution** | **75%** of customers fall into "Others," highlighting a massive re-engagement gap. |
 | **Revenue Concentration** | Champions drive the highest value, with outliers spending up to **$279K**. |
 | **Recency Gap** | "At Risk" and "Others" show median recency **>100 days**, indicating a high lapse rate. |
-| **Engagement Trend** | Most customers have low frequency; high-frequency outliers are concentrated in "Champions." |
+| **Statistically Significant Churn** | T-test confirms "At Risk" segment recency is significantly higher than "Champions" ($p < 0.05$). |
 | **Opportunity** | "Potential Loyalists" (72 users) have low recency but low spend; they are primed for upselling. |
 
 ---
@@ -116,9 +116,9 @@ rfm['M_rank'] = pd.qcut(rfm['Monetary'], 5, labels=[1, 2, 3, 4, 5])
 ## Recommendations
 
 * **Nurture Champions:** Implement a VIP loyalty program with exclusive rewards to prevent fatigue.
-* **Reactivate "At Risk":** Use personalized "We Miss You" discounts based on their specific past purchase history.
+* **Reactivate "At Risk":** Use personalized "We Miss You" discounts based on past history. **[View Retention T-Test Details](https://github.com/bitsbard/customer-retention-t-test)**.
 * **Upsell Potential Loyalists:** Focus on bundle deals or "Frequent Buyer" points to increase their Frequency score.
-* **Filter "Others":** Segment this group further; target high-monetary outliers for high-touch re-engagement while ignoring low-value/high-recency leads to save marketing spend.
+* **Filter "Others":** Segment this group further; target high-monetary outliers for high-touch re-engagement while ignoring low-value leads to save marketing spend.
 
 ---
 
@@ -132,6 +132,8 @@ customer-segmentation-rfm/
 │   ├── phase_2_data_cleaning.ipynb
 │   ├── phase_3_rfm_analysis.ipynb
 │   └── phase_4_segmentation.ipynb
+├── tests/                       # Statistical validation
+│   └── retention_t_test.py      # T-test script for segment comparison
 ├── ecommerce_data.db            # SQLite database file
 └── README.md                    # Project documentation
 ```
